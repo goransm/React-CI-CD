@@ -27,6 +27,6 @@ it('calls generateRandomQuote prop function when next button is clicked', () => 
 
 test('renders learn react link', () => {
   render(<App />)
-  const linkElement = screen.getByText(/learn react/i)
+  const linkElement = screen.getByText(/burning/i)
   expect(linkElement).toBeInTheDocument()
 })
