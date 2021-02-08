@@ -40,7 +40,6 @@ export default class App extends Component {
           generateRandomQuote={this.generateRandomQuote}
           quote={this.state}
         />
-        <a>A test requires the word børning to be in this page.</a>
       </div>
     );
   }
